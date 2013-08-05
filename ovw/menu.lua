@@ -11,7 +11,7 @@ end
 
 function Menu:draw()
   love.graphics.draw(self.bg, 0, 0)
-  love.graphics.printf('groupGore', 0, love.graphics.getHeight() / 2, love.graphics.getWidth(), 'center')
+  love.graphics.printf('groupGore: They have taken the hobbits to Isengard', 0, love.graphics.getHeight() / 2, love.graphics.getWidth(), 'center')
   love.timer.sleep(.1)
 end
 
